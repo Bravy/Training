@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose config Skipping project config: /home/bravy/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune bravy
+21 silly idealTree:prePrune +-- abbrev@1.1.0
+21 silly idealTree:prePrune +-- balanced-match@0.4.2
+21 silly idealTree:prePrune +-- brace-expansion@1.1.6
+21 silly idealTree:prePrune +-- concat-map@0.0.1
+21 silly idealTree:prePrune +-- findup-sync@0.3.0
+21 silly idealTree:prePrune +-- glob@5.0.15
+21 silly idealTree:prePrune +-- grunt-cli@1.2.0
+21 silly idealTree:prePrune +-- grunt-known-options@1.1.0
+21 silly idealTree:prePrune +-- inflight@1.0.6
+21 silly idealTree:prePrune +-- inherits@2.0.3
+21 silly idealTree:prePrune +-- minimatch@3.0.3
+21 silly idealTree:prePrune +-- nopt@3.0.6
+21 silly idealTree:prePrune +-- once@1.4.0
+21 silly idealTree:prePrune +-- path-is-absolute@1.0.1
+21 silly idealTree:prePrune +-- resolve@1.1.7
+21 silly idealTree:prePrune `-- wrappy@1.0.2
+22 silly loadIdealTree Finishing
+23 silly currentTree bravy
+23 silly currentTree +-- abbrev@1.1.0
+23 silly currentTree +-- balanced-match@0.4.2
+23 silly currentTree +-- brace-expansion@1.1.6
+23 silly currentTree +-- concat-map@0.0.1
+23 silly currentTree +-- findup-sync@0.3.0
+23 silly currentTree +-- glob@5.0.15
+23 silly currentTree +-- grunt-cli@1.2.0
+23 silly currentTree +-- grunt-known-options@1.1.0
+23 silly currentTree +-- inflight@1.0.6
+23 silly currentTree +-- inherits@2.0.3
+23 silly currentTree +-- minimatch@3.0.3
+23 silly currentTree +-- nopt@3.0.6
+23 silly currentTree +-- once@1.4.0
+23 silly currentTree +-- path-is-absolute@1.0.1
+23 silly currentTree +-- resolve@1.1.7
+23 silly currentTree `-- wrappy@1.0.2
+24 silly idealTree bravy
+24 silly idealTree +-- abbrev@1.1.0
+24 silly idealTree +-- balanced-match@0.4.2
+24 silly idealTree +-- brace-expansion@1.1.6
+24 silly idealTree +-- concat-map@0.0.1
+24 silly idealTree +-- findup-sync@0.3.0
+24 silly idealTree +-- glob@5.0.15
+24 silly idealTree +-- grunt-cli@1.2.0
+24 silly idealTree +-- grunt-known-options@1.1.0
+24 silly idealTree +-- inflight@1.0.6
+24 silly idealTree +-- inherits@2.0.3
+24 silly idealTree +-- minimatch@3.0.3
+24 silly idealTree +-- nopt@3.0.6
+24 silly idealTree +-- once@1.4.0
+24 silly idealTree +-- path-is-absolute@1.0.1
+24 silly idealTree +-- resolve@1.1.7
+24 silly idealTree `-- wrappy@1.0.2
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /home/bravy/node_modules
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 warn enoent ENOENT: no such file or directory, open '/home/bravy/package.json'
+34 warn bravy No description
+35 warn bravy No repository field.
+36 warn bravy No README data
+37 warn bravy No license field.
+38 verbose stack Error: EACCES: permission denied, access '/home/bravy/node_modules'
+38 verbose stack     at Error (native)
+39 verbose cwd /home/bravy/Desktop/Training/html-css
+40 error Linux 4.4.0-62-generic
+41 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+42 error node v4.2.6
+43 error npm  v3.5.2
+44 error path /home/bravy/node_modules
+45 error code EACCES
+46 error errno -13
+47 error syscall access
+48 error Error: EACCES: permission denied, access '/home/bravy/node_modules'
+48 error     at Error (native)
+48 error  { [Error: EACCES: permission denied, access '/home/bravy/node_modules']
+48 error   errno: -13,
+48 error   code: 'EACCES',
+48 error   syscall: 'access',
+48 error   path: '/home/bravy/node_modules' }
+49 error Please try running this command again as root/Administrator.
+50 verbose exit [ -13, true ]

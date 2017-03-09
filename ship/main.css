@@ -1,0 +1,98 @@
+*{
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+.back{
+  height: 670px;
+  width:1320px;
+  position: relative;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sun{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  right:50px;
+  filter: blur(2px);
+}
+
+.glow{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background:#f1e767;
+  background: linear-gradient(#f1e767 , #febf04);
+  filter: blur(4px);
+  animation: shadow 3s infinite;
+  animation-direction: alternate;
+
+}
+
+.bird{
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  top: 80px;
+  left:50px;
+  animation: bird 20s infinite;
+}
+
+@keyframes bird {
+  0%{left:50px;}
+  100%{left:1300px}
+}
+@keyframes shadow {
+  0%{
+    height: 100px;
+    width: 100px;
+  }
+  25%{
+    height: 120px;
+    width: 120px;
+    top: 42px;
+    right: 40px;
+  }
+  50%{
+    height: 110px;
+    width: 110px;
+    top: 45px;
+    right: 45px;
+  }
+  75%{
+    height: 115px;
+    width: 115px;
+    top: 40px;
+    right: 40px;
+  }
+  100%{
+    height: 105px;
+    width: 105px;
+    top: 45px;
+    right: 45px;
+  }
+}
+@keyframes float{
+  0%{ right: 10px;}
+  100%{right: 1300px;}
+}
+  .ship{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 350px;
+    right: 10px;
+    animation: float 15s infinite;
+  }

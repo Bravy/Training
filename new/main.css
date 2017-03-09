@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s all ease-in;
+}
+
+html , body{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.dot{
+  font-size: 24px;
+}
+
+.menu{
+  height: 100%;
+  width: 80px;
+  top: 0px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+  align-items: center;
+  font-family: 'lato',sans-serif;
+}
+.menu * {
+  transition: 0.5s all ease;
+}
+.menu:hover {
+  cursor:pointer;
+}
+.menu:hover .waddi {
+  width:30px;
+}
+.menu:hover .odd {
+  margin-left:-7px;
+}
+.icon{
+  width: 30px;
+  height: 40px;
+  display:inline-block;
+  padding-top:9px;
+}
+
+.line{
+  float: right;
+  height: 2px;
+  background-color: black;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.waddi{
+  transition: width 0.5s ease-in-out;
+}
+
+.icon:hover .waddi{
+  width:30px;
+}
+
+.menu-txt {
+  height:40px;
+  width:10px;
+  display:inline-block;
+}
+.menu-txt div{
+  width:10px;
+  height:10px;
+  font-size: 10px;
+  transform: rotate(90deg);
+  text-align:center;
+}
+
+.page{
+  height: 100%;
+  width:200%;
+  margin-top: -50px;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.front-page{
+  height: 100%;
+  display: inline-block;
+  width:50%;
+  overflow: hidden;
+  transition:0.5s all ease-out  ;
+}
+
+.card{
+  height: 100%;
+  width:50%;
+  background-color:#f65;
+  animation: slider 2s 1;
+  position: relative;
+}
+
+.text-layer{
+  height: 100%;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 4.5em;
+  font-weight: 900;
+  position:relative;
+  top:-100%;
+}
+
+.vichkar-heading{
+  width:200px;
+  height:auto;
+  margin:auto;
+  display: block;
+}
+
+.redot{
+  color:#f65;
+}
+
+@keyframes slider{
+  0% { width: 100%;}
+  100%{width: 50%}
+}
+
+.hidden-page{
+  height: 100%;
+  width:35%;
+  display: inline-block;
+  margin-left:-35%;
+}
+
+.hidden-page ul{
+  list-style: none;
+  font-family: 'Lato',sans-serif;
+}
+
+.close{
+  display: block;
+}
+.arrow{
+  display: inline-block;
+}
