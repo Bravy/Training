@@ -1,0 +1,126 @@
+*{
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+
+.background{
+  height: 670px;
+  width:1320px;
+  position: relative;
+  background-image: url("stars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  height:100px;
+  width:250px;
+  position: absolute;
+  top:10px;
+}
+.score{
+  position: absolute;
+  top: 20px;
+  left:1200px;
+  font-size: 6em;
+  font-family: 'Oswald',sans-serif;
+  color:white;
+  font-weight: bold;
+}
+
+.fighter{
+  height: 700px;
+  position: absolute;
+  top:0px;
+  left:10px;
+}
+.fighter img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top:500px;
+
+}
+
+.villans{
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: -700px;
+  animation: slide 40s infinite;
+}
+
+@keyframes slide {
+  0%{top:-600px;}
+  100%{top:670px;}
+}
+
+.villan1{
+  height: 150px;
+  width:150px;
+  position:absolute;
+  display:  inline-block;
+  top: 600px;
+  left: 0px;
+}
+.villan2{
+  height: 150px;
+  width:150px;
+  position:absolute;
+  display:  inline-block;
+  top: 0px;
+  left: 100px;
+}
+.villan3{
+  height: 100px;
+  width:100px;
+  position:absolute;
+  display:  inline-block;
+  top: 200px;
+  left: 300px;
+}
+.villan4{
+  height: 100px;
+  width:100px;
+  position:absolute;
+  display:  inline-block;
+  top: 400px;
+  left: 450px;
+}
+.villan5{
+  height: 150px;
+  width:150px;
+  position:absolute;
+  display:  inline-block;
+  top: 500px;
+  left: 600px;
+}
+.villan6{
+  height: 150px;
+  width:150px;
+  position:absolute;
+  display:  inline-block;
+  top: 100px;
+  left: 800px;
+}
+.villan7{
+  height: 150px;
+  width:150px;
+  position:absolute;
+  display:  inline-block;
+  top: 550px;
+  left: 1010px;
+}
+
+.bullet{
+  height: 10px;
+  width: 2px;
+  display: inline-block;
+  position: relative;
+  top:500px;
+  left: 70px;
+  background-color: white;
+}
